@@ -8,7 +8,7 @@ package com.mycompany.abstraction;
  *
  * @author khali
  */
-public abstract class Animal {
+public abstract class Animal { // access (public,protected) abstract class {Nomdeclass}
     String nom;
     String lieu;
     boolean poils;

@@ -10,7 +10,7 @@ import java.util.List;
  *
  * @author khali
  */
-public class Employee implements EmployeeInterface{
+public class Employee implements EmployeeInterface{ // declarer que Employee reconstruit toutes les méthodes de la classe
     private String nom,prenom,grade;
     private int recrutement;
     private int id;
@@ -76,10 +76,10 @@ public class Employee implements EmployeeInterface{
         this.salaire = salaire;
     }
 
-    @Override
-    public void createEmployee(Employee em) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+//    @Override
+//    public void createEmployee(Employee em) {
+//        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+//    }
 
     @Override
     public void updateEmployee(Employee em) {
@@ -103,6 +103,11 @@ public class Employee implements EmployeeInterface{
 
     @Override
     public Employee findByNom(String nom) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public void createEmployee(Employee em) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     

@@ -11,6 +11,7 @@ import java.util.List;
  * @author khali
  */
 public interface EmployeeInterface {
+    // interdiction de declaration des attributs
     public void createEmployee(Employee em); // vous devez ajouter un employé
     public void updateEmployee(Employee em); // {} interdit
     public List<Employee> listerEmployee();
