@@ -18,5 +18,6 @@ public interface EmployeeInterface {
     public void deleteEmployee(int id);
     public Employee findById(int id);
     public Employee findByNom(String nom);
+    //Employee(int age,String nom);
     
 }

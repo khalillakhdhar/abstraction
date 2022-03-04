@@ -13,6 +13,7 @@ public abstract class Animal { // access (public,protected) abstract class {Nomd
     String lieu;
     boolean poils;
     
+    
     public void sleep() {
 System.out.println("Zzz");
 }
